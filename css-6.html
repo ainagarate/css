@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6 CSS - Media query</title>
+
+    <style>
+        @media (max-width:600px) {
+
+            .contenido {
+                width: 100%;
+                background-color: red;
+                font-size: 11px;
+            }
+
+            .recomendaciones {
+                width: 100%;
+                background-color: red;
+                font-size: 11px;
+            }
+        }
+
+        @media (max-width: 800px) and (min-width: 600px) {
+            .contenido {
+
+                width: 60%;
+                background-color: green;
+                font-size: 12px;
+            }
+
+            .recomendaciones {
+                width: 30%;
+                background-color: blue;
+                font-size: 12px;
+
+            }
+
+        }
+
+
+        @media (min-width: 800px) {
+
+            .contenido {
+                width: 80%;
+                background-color: blueviolet;
+                font-size: 14px;
+            }
+
+            .recomendaciones {
+                width: 15%;
+                background-color: yellow;
+                font-size: 14px;
+            }
+        }
+
+
+
+
+    </style>
+</head>
+
+<body>
+    <header>
+
+
+    </header>
+
+    <main>
+        <div class="contenido">
+            <h1>Título</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime tenetur cupiditate quasi doloribus ipsa,
+                harum sapiente dolores saepe amet nisi tempora aspernatur voluptatum sit, odio quod, illo repellendus
+                vel modi!</p>
+
+        </div>
+
+        <div class="recomendaciones">
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae repellat quisquam, nesciunt amet a
+                illum dicta delectus esse magnam rem.</p>
+
+            <ul>
+                <li>blanco</li>
+                <li>rojo</li>
+                <li>azul</li>
+            </ul>
+        </div>
+
+    </main>
+
+    <footer>
+
+
+    </footer>
+
+</body>
+
+</html>
